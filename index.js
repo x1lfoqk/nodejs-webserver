@@ -4,7 +4,7 @@ const fs = require('fs');
 const MongoClient = require('mongodb').MongoClient;
 
 const app = express()
-const port = 3000
+const port = 80
 
 // This tells the express framework to allow accepting certain types of data formats sent from a browser.
 app.use(bodyParser.json());         // to support JSON posts
